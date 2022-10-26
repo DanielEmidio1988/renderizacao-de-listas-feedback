@@ -68,6 +68,22 @@ export const Tarefa = styled.li`
   }
 `;
 
+export const TarefaConcluida = styled.li`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 6px 8px;
+  color: gray;
+  text-decoration: line-through;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: lightblue;
+  }
+`;
+
 export const LinhaHorizontal = styled.hr`
   width: 100%;
   margin: 16px;

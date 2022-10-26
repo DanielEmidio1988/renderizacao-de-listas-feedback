@@ -1,0 +1,11 @@
+import {TarefaConcluida} from './styled'
+
+function TarefasConcluidas (props){
+    return (
+        <TarefaConcluida>
+        <p>{props.tarefa}</p>
+      </TarefaConcluida>
+    )
+}
+
+export default TarefasConcluidas
